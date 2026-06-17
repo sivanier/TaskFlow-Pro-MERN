@@ -28,15 +28,6 @@
       "updatedAt": "2026-06-17T09:23:05.377Z"
     },
     {
-      "id": "73ac62e2-f6ff-41d6-a8c1-bdc154c96ac6",
-      "title": "Assignment",
-      "description": "",
-      "dueDate": "2026-06-19",
-      "completed": false,
-      "createdAt": "2026-06-17T09:24:34.777Z",
-      "updatedAt": "2026-06-17T09:24:34.777Z"
-    },
-    {
       "id": "f3821d3b-9d80-44ce-9918-1d467d718400",
       "title": "Economics",
       "description": "",
@@ -53,6 +44,24 @@
       "completed": false,
       "createdAt": "2026-06-17T13:08:16.254Z",
       "updatedAt": "2026-06-17T13:08:16.254Z"
+    },
+    {
+      "id": "30473e13-0468-4cad-8dd3-656647f2721a",
+      "title": "Assignment",
+      "description": "",
+      "dueDate": "2026-06-19",
+      "completed": false,
+      "createdAt": "2026-06-17T13:25:51.995Z",
+      "updatedAt": "2026-06-17T13:25:51.995Z"
+    },
+    {
+      "id": "2f7de715-833a-43f4-85f8-97d765b0dc9b",
+      "title": "Cleaning",
+      "description": "",
+      "dueDate": "2026-06-18",
+      "completed": false,
+      "createdAt": "2026-06-17T13:30:11.426Z",
+      "updatedAt": "2026-06-17T13:30:11.426Z"
     }
   ]
 }

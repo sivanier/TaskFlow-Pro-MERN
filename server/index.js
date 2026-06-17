@@ -17,6 +17,17 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.json({
+    name: "TaskFlow Pro API",
+    status: "running",
+    endpoints: {
+      health: "/api/health",
+      tasks: "/api/tasks"
+    }
+  });
+});
+
 async function ensureDatabase() {
   await mkdir(dataDir, { recursive: true });
 
