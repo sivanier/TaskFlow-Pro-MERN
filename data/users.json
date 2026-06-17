@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "52bd1509-f7f1-449a-96f6-d8b634b049b5",
+      "name": "ammu",
+      "email": "ammu@gmail.com",
+      "password": "e04fc2eebcfd0e62da80deddced04367:ae7972327930ea2bc0359848d74a9a9b0f41723d31af6192fbd20255f4f08ac13cc0bf886b8ab3e8cd11a7b9b34ec40e1fe0ef17acdf0b96a651165d6fadaefa",
+      "role": "Student",
+      "course": "Web Development Internship",
+      "notificationsEnabled": true,
+      "createdAt": "2026-06-17T18:19:19.657Z",
+      "updatedAt": "2026-06-17T18:19:19.657Z"
+    },
+    {
+      "id": "0700d1e7-f313-47b7-aa57-fad3dd51cd45",
+      "name": "athul",
+      "email": "athul@gmail.com",
+      "password": "cec052c1a2cb2ced6240b2deed09d639:0f88694b36bf29e20c7b24610fd77ef812a3b7df67aa930e6ba382ca819aacfc9c36b0b22d946bd05a330a9e584b80d9a764059418e27209ab6880cf8cb73aee",
+      "role": "Student",
+      "course": "flutter",
+      "notificationsEnabled": true,
+      "createdAt": "2026-06-17T18:23:59.424Z",
+      "updatedAt": "2026-06-17T18:30:19.197Z"
+    },
+    {
+      "id": "54a957ef-2c61-4757-a8bd-f03069c76b74",
+      "name": "Arya",
+      "email": "arya@gmail.com",
+      "password": "8d44c4e03ea1d1e60755f68dc295d5ac:392797f8f08e8292a9a92b37f99a2732dc4a34ba833cc7635382c66ff088c24d10412defffc5e5c1da544b30346baeda28df45fcfc10116853e020eaf7ce29ca",
+      "role": "Student",
+      "course": "Web Development Internship",
+      "notificationsEnabled": true,
+      "createdAt": "2026-06-17T18:35:01.493Z",
+      "updatedAt": "2026-06-17T18:35:01.493Z"
+    }
+  ]
+}

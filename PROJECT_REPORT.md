@@ -2,15 +2,15 @@
 
 ## 1. Project Title
 
-TaskFlow Manager - Task Management Web Application
+TaskFlow Pro - Task Management Web Application
 
 ## 2. Objective
 
-The objective of this project is to develop a web-based task management application that helps users organize work by creating tasks, assigning due dates, and tracking completion status.
+The objective of this project is to develop a full-stack task management web application that helps users organize their personal work by creating tasks, assigning due dates, setting priorities, tracking completion status, and managing their profile.
 
 ## 3. Problem Statement
 
-Students, interns, and working professionals often need a simple way to track tasks and deadlines. Without a task management tool, important work can be missed or delayed. This application solves that problem by providing an easy interface to add, view, complete, filter, and delete tasks.
+Students, interns, and working professionals often need a simple way to manage tasks and deadlines. Without a task management tool, important work can be delayed or forgotten. TaskFlow Pro solves this problem by providing a user-friendly web application where each user can register, login, and manage their own task list.
 
 ## 4. Technologies Used
 
@@ -18,42 +18,67 @@ Students, interns, and working professionals often need a simple way to track ta
 - Vite: Used as the frontend development and build tool.
 - Express.js: Used to create the backend REST API.
 - Node.js: Used as the JavaScript runtime for the backend.
-- JSON Database: Used to store task records persistently in `data/tasks.json`.
-- CSS: Used to design a responsive and clean user interface.
+- JSON Database: Used to store user and task records persistently.
+- CSS: Used to design a responsive light and dark mode interface.
 
 ## 5. Main Modules
 
-### Frontend Module
+### Authentication Module
 
-The frontend provides the user interface for creating tasks, checking task summaries, filtering records, marking tasks complete, and deleting tasks.
+The authentication module allows users to register and login with an email and password. Passwords are hashed on the backend before being stored in the JSON user database.
+
+### Task Management Module
+
+The task module allows logged-in users to create, edit, complete, search, filter, and delete tasks. Each task belongs to a specific user, so new users start with an empty task list.
+
+### User Profile Module
+
+The profile module lets users update their name, email, role, course, and notification preference.
+
+### Notification Module
+
+The notification section previews email reminders for tasks due soon. Real email delivery can be connected later through SMTP or a transactional email service.
+
+### Theme Module
+
+The theme module allows users to switch between light mode and dark mode. The selected theme is saved in browser storage.
 
 ### Backend Module
 
-The backend exposes REST API routes for task operations. It validates incoming data and saves records to the local JSON database.
+The backend exposes REST API routes for authentication, user profiles, and task operations. It validates incoming data and saves records to local JSON files.
 
 ### Database Module
 
-Task data is stored in a JSON file. Each task includes an ID, title, description, due date, completion status, creation time, and update time.
+User data is stored in `data/users.json`, and task data is stored in `data/tasks.json`. Each task includes an ID, user ID, title, description, due date, priority, completion status, creation time, and update time.
 
 ## 6. Features Implemented
 
-- Add a new task with title, description, and due date.
-- Display all tasks from the database.
+- Register and login with user account details.
+- Store hashed passwords instead of plain text passwords.
+- Show each logged-in user only their own task list.
+- Show an empty task list for newly registered users.
+- Add a new task with title, description, due date, and priority.
+- Edit existing task information.
 - Mark a task as completed using a checkbox.
 - Filter tasks by all, pending, completed, and overdue.
+- Search tasks by task name, description, or priority.
 - Delete tasks that are no longer needed.
 - Show task statistics including total, pending, completed, and overdue tasks.
-- Validate required fields before storing tasks.
-- Preserve task data after page refresh using backend file storage.
+- Edit user profile details such as name, email, role, course, and notification preference.
+- Switch between light mode and dark mode.
+- Preview email reminders for tasks due soon.
+- Validate required fields before storing data.
+- Preserve user and task data after refresh using backend JSON storage.
 
 ## 7. System Workflow
 
-1. The user enters task details in the frontend form.
-2. The React application sends the task data to the Express API.
-3. The Express server validates the request.
-4. Valid task data is saved into the JSON database.
-5. The frontend fetches updated task data and displays it to the user.
-6. Users can update task completion status or delete tasks through API calls.
+1. The user registers or logs in through the React frontend.
+2. The frontend sends authentication data to the Express backend.
+3. The backend validates the request and returns the logged-in user profile.
+4. The frontend fetches tasks using the logged-in user's ID.
+5. A new user receives an empty task list.
+6. The user can create, edit, complete, filter, search, or delete tasks.
+7. The backend saves task and profile updates to JSON files.
 
 ## 8. How to Run the Project
 
@@ -63,15 +88,26 @@ Task data is stored in a JSON file. Each task includes an ID, title, description
 4. Run `npm run dev`.
 5. Visit `http://127.0.0.1:5173` in a browser.
 
-## 9. Future Scope
+The backend runs on `http://127.0.0.1:5050`, and the frontend proxies `/api` requests to that backend.
 
-- Add user login and authentication.
-- Add priority levels for tasks.
-- Add edit task functionality in the user interface.
+## 9. Testing and Verification
+
+The project was verified using:
+
+- `npm run build`
+- `node server/smoke-test.js`
+
+The smoke test checks backend health, authentication, profile update, user-specific empty task lists, task creation, and cleanup.
+
+## 10. Future Scope
+
 - Replace the JSON database with MongoDB or PostgreSQL.
+- Connect email notifications to a real SMTP or transactional email service.
 - Add task categories and calendar view.
-- Add email or browser reminders for upcoming deadlines.
+- Add browser push reminders for upcoming deadlines.
+- Add password reset functionality.
+- Add profile image upload.
 
-## 10. Conclusion
+## 11. Conclusion
 
-The TaskFlow Manager project successfully meets the requirement of a task management web application. It includes task creation, due date management, completion tracking, filtering, deletion, REST API integration, and persistent database storage.
+TaskFlow Pro successfully meets the requirement of a task management web application. It includes user registration, login, user-specific task management, task creation, due date management, priority badges, completion tracking, filtering, searching, editing, deletion, dark mode, user profile management, notification preview, REST API integration, and persistent JSON storage.

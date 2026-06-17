@@ -5,6 +5,7 @@
       "title": "Prepare internship project report",
       "description": "Summarize features, tools used, screenshots, and future scope.",
       "dueDate": "2026-06-20",
+      "priority": "High",
       "completed": false,
       "createdAt": "2026-06-17T08:00:00.000Z",
       "updatedAt": "2026-06-17T08:00:00.000Z"
@@ -14,6 +15,7 @@
       "title": "Upload source code to GitHub",
       "description": "Push project files and include setup instructions in README.",
       "dueDate": "2026-06-22",
+      "priority": "Medium",
       "completed": false,
       "createdAt": "2026-06-17T08:10:00.000Z",
       "updatedAt": "2026-06-17T09:23:06.557Z"
@@ -23,6 +25,7 @@
       "title": "Finalize UI design",
       "description": "Check layout on desktop and mobile screens.",
       "dueDate": "2026-06-18",
+      "priority": "Low",
       "completed": true,
       "createdAt": "2026-06-17T08:20:00.000Z",
       "updatedAt": "2026-06-17T09:23:05.377Z"
@@ -31,16 +34,18 @@
       "id": "f3821d3b-9d80-44ce-9918-1d467d718400",
       "title": "Economics",
       "description": "",
-      "dueDate": "2026-06-13",
+      "dueDate": "2026-06-26",
+      "priority": "High",
       "completed": false,
       "createdAt": "2026-06-17T09:26:53.521Z",
-      "updatedAt": "2026-06-17T09:26:53.521Z"
+      "updatedAt": "2026-06-17T17:47:55.708Z"
     },
     {
       "id": "84e44929-9153-403c-a2ff-829a956a2e7c",
       "title": "DSA",
       "description": "",
       "dueDate": "2026-06-21",
+      "priority": "Medium",
       "completed": false,
       "createdAt": "2026-06-17T13:08:16.254Z",
       "updatedAt": "2026-06-17T13:08:16.254Z"
@@ -50,18 +55,53 @@
       "title": "Assignment",
       "description": "",
       "dueDate": "2026-06-19",
+      "priority": "Medium",
       "completed": false,
       "createdAt": "2026-06-17T13:25:51.995Z",
       "updatedAt": "2026-06-17T13:25:51.995Z"
     },
     {
-      "id": "2f7de715-833a-43f4-85f8-97d765b0dc9b",
-      "title": "Cleaning",
+      "id": "8a1530b8-4d92-442e-a042-988bc1ec14a6",
+      "title": "internship",
       "description": "",
-      "dueDate": "2026-06-18",
+      "dueDate": "2026-06-16",
+      "priority": "Low",
+      "completed": true,
+      "createdAt": "2026-06-17T13:51:34.783Z",
+      "updatedAt": "2026-06-17T13:51:38.548Z"
+    },
+    {
+      "id": "18659f48-b52b-4175-b904-81bb4b12e26a",
+      "userId": "52bd1509-f7f1-449a-96f6-d8b634b049b5",
+      "title": "Assignment 2",
+      "description": "Develop a Portfolio",
+      "dueDate": "2026-06-21",
+      "priority": "Low",
       "completed": false,
-      "createdAt": "2026-06-17T13:30:11.426Z",
-      "updatedAt": "2026-06-17T13:30:11.426Z"
+      "createdAt": "2026-06-17T18:31:32.596Z",
+      "updatedAt": "2026-06-17T18:31:54.588Z"
+    },
+    {
+      "id": "739364e8-c5c1-49e4-a67d-e691f47042fe",
+      "userId": "52bd1509-f7f1-449a-96f6-d8b634b049b5",
+      "title": "Assignment 1",
+      "description": "Task management system",
+      "dueDate": "2026-06-15",
+      "priority": "Medium",
+      "completed": false,
+      "createdAt": "2026-06-17T18:32:55.519Z",
+      "updatedAt": "2026-06-17T18:32:55.519Z"
+    },
+    {
+      "id": "032615f1-9105-45a8-b2fe-56c1a888935d",
+      "userId": "52bd1509-f7f1-449a-96f6-d8b634b049b5",
+      "title": "Basics note",
+      "description": "",
+      "dueDate": "2026-06-13",
+      "priority": "Low",
+      "completed": true,
+      "createdAt": "2026-06-17T18:33:29.849Z",
+      "updatedAt": "2026-06-17T18:33:31.678Z"
     }
   ]
 }
