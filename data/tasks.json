@@ -1,0 +1,58 @@
+{
+  "tasks": [
+    {
+      "id": "sample-1",
+      "title": "Prepare internship project report",
+      "description": "Summarize features, tools used, screenshots, and future scope.",
+      "dueDate": "2026-06-20",
+      "completed": false,
+      "createdAt": "2026-06-17T08:00:00.000Z",
+      "updatedAt": "2026-06-17T08:00:00.000Z"
+    },
+    {
+      "id": "sample-2",
+      "title": "Upload source code to GitHub",
+      "description": "Push project files and include setup instructions in README.",
+      "dueDate": "2026-06-22",
+      "completed": false,
+      "createdAt": "2026-06-17T08:10:00.000Z",
+      "updatedAt": "2026-06-17T09:23:06.557Z"
+    },
+    {
+      "id": "sample-3",
+      "title": "Finalize UI design",
+      "description": "Check layout on desktop and mobile screens.",
+      "dueDate": "2026-06-18",
+      "completed": true,
+      "createdAt": "2026-06-17T08:20:00.000Z",
+      "updatedAt": "2026-06-17T09:23:05.377Z"
+    },
+    {
+      "id": "73ac62e2-f6ff-41d6-a8c1-bdc154c96ac6",
+      "title": "Assignment",
+      "description": "",
+      "dueDate": "2026-06-19",
+      "completed": false,
+      "createdAt": "2026-06-17T09:24:34.777Z",
+      "updatedAt": "2026-06-17T09:24:34.777Z"
+    },
+    {
+      "id": "f3821d3b-9d80-44ce-9918-1d467d718400",
+      "title": "Economics",
+      "description": "",
+      "dueDate": "2026-06-13",
+      "completed": false,
+      "createdAt": "2026-06-17T09:26:53.521Z",
+      "updatedAt": "2026-06-17T09:26:53.521Z"
+    },
+    {
+      "id": "84e44929-9153-403c-a2ff-829a956a2e7c",
+      "title": "DSA",
+      "description": "",
+      "dueDate": "2026-06-21",
+      "completed": false,
+      "createdAt": "2026-06-17T13:08:16.254Z",
+      "updatedAt": "2026-06-17T13:08:16.254Z"
+    }
+  ]
+}
