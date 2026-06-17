@@ -33,23 +33,20 @@ TaskFlow Pro is a full-stack task management web application created for the Ski
 
 ## Project Structure
 
+```text
 task_management/
 ├── data/
 │   ├── tasks.json
 │   └── users.json
-│
 ├── docs/
 │   ├── assets/
 │   └── index.html
-│
 ├── server/
 │   ├── index.js
 │   └── smoke-test.js
-│
 ├── src/
 │   ├── main.jsx
 │   └── styles.css
-│
 ├── .gitignore
 ├── index.html
 ├── package.json
@@ -57,6 +54,7 @@ task_management/
 ├── vite.config.js
 ├── README.md
 └── PROJECT_REPORT.md
+```
 
 ## How to Run
 
