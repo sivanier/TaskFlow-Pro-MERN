@@ -6,6 +6,7 @@ const projectRoot = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
   root: projectRoot,
+  base: "/TaskFlow-Pro-MERN/",
   plugins: [react()],
   server: {
     host: "127.0.0.1",
