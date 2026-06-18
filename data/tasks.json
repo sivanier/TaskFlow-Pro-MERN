@@ -102,6 +102,39 @@
       "completed": true,
       "createdAt": "2026-06-17T18:33:29.849Z",
       "updatedAt": "2026-06-17T18:33:31.678Z"
+    },
+    {
+      "id": "58a35ba9-d84d-499e-a632-7c0a345d356d",
+      "userId": "52bd1509-f7f1-449a-96f6-d8b634b049b5",
+      "title": "Mini_project1",
+      "description": "Blog",
+      "dueDate": "2026-06-23",
+      "priority": "Medium",
+      "completed": false,
+      "createdAt": "2026-06-18T11:47:12.534Z",
+      "updatedAt": "2026-06-18T11:47:24.634Z"
+    },
+    {
+      "id": "43c0b7fb-0a17-4c65-9fab-26ef89146841",
+      "userId": "474766d7-6e21-41f9-a1a1-32197e516869",
+      "title": "Assignment1",
+      "description": "",
+      "dueDate": "2026-06-20",
+      "priority": "Low",
+      "completed": true,
+      "createdAt": "2026-06-18T11:50:14.605Z",
+      "updatedAt": "2026-06-18T11:51:07.657Z"
+    },
+    {
+      "id": "ad6f4830-ec71-4706-a873-e3feca512429",
+      "userId": "474766d7-6e21-41f9-a1a1-32197e516869",
+      "title": "Ass2",
+      "description": "",
+      "dueDate": "2026-06-21",
+      "priority": "Medium",
+      "completed": false,
+      "createdAt": "2026-06-18T11:51:23.380Z",
+      "updatedAt": "2026-06-18T11:51:23.380Z"
     }
   ]
 }

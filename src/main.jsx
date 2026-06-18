@@ -2,7 +2,10 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-const API_BASE_URL = "/api";
+const API_BASE_URL =
+  window.location.hostname === "sivanier.github.io"
+    ? "https://taskflow-pro-api-2497.onrender.com/api"
+    : "/api";
 const API_URL = `${API_BASE_URL}/tasks`;
 const emptyForm = {
   title: "",

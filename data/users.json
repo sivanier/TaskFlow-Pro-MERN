@@ -32,6 +32,17 @@
       "notificationsEnabled": true,
       "createdAt": "2026-06-17T18:35:01.493Z",
       "updatedAt": "2026-06-17T18:35:01.493Z"
+    },
+    {
+      "id": "474766d7-6e21-41f9-a1a1-32197e516869",
+      "name": "Raju",
+      "email": "raju@gmail.com",
+      "password": "26acf39236d4358ec2d908a1ee501541:e24b783bf79922962aa12d8ec200dc0fd8b16195f31ae0cb039446a3dd79409f555a550fb8e90d15bd18ab244efb5b9292bfa2909f1e44b918a3699a5890e2b0",
+      "role": "Student",
+      "course": "Web Development Internship",
+      "notificationsEnabled": true,
+      "createdAt": "2026-06-18T11:49:47.715Z",
+      "updatedAt": "2026-06-18T11:49:47.715Z"
     }
   ]
 }
